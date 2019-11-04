@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #FFd7b9;
+}
+
+/* ##### general ##### */
+* {
+	box-sizing: border-box;
+}
+main {
+	padding: 0 2rem;
+}
+
+/* ##### Search ##### */
+header {
+	background: #3498db;
+	margin-bottom: 2rem;
+}
+
+input[type='text'] {
+	margin: 1rem;
+	background: #fff;
+	font-size: 1.0rem;
+	border: none;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	padding: 0 1rem;
+	width: calc(100% - 2rem);
+	height: 2rem;
+}
+
+/* ##### NamesList ##### */
+tr {
+	padding: 0;
+}
+th {
+	position: left;
+	list-style: none;
+	padding: 0.25rem 0.75rem;
+	margin: 2px;
+	border-radius: 3px;
+}
+td:hover {
+	position: left;
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+/* ##### Columns ##### */
+.column1 {
+	float: left;
+	width: 40%;
+	padding: 10px;
+	background: #ffffff;
+}
+.column2 {
+	float: left;
+	width: 60%;
+	padding: 20px;
+	background-color: #ddeffa;
+	
+}
+.column3 {
+	float: left;
+	width: 60%;
+	padding: 20px;
+	background-color: #ddeffa;
+}
+
+/* ##### Rows ##### */
+.row {
+	margin: 2rem;
+	text-align: center;
+}
+
+.row:after {
+	padding: 1 0rem;
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.tableWrapper {
+	max-height: 800px;
+	overflow: auto;
+	scroll-behavior: smooth;
+	text-align: left;
+}
+
+/* ##### Footer ##### */
+.credit {
+	padding: 1rem 0;
+	color: #b3b3b3;
+}
+.credit a {
+	color: #3498bb;
+}
+button {
+	background: #d7d7d7;
+	color: #3b3b3b;
+	padding: 0.6rem 1rem;
+	font-size: 0.8rem;
+	border: solid 1px #c7c7c7;
+	margin: 1rem 0;
+	box-shadow: 2 3px 10px rgba(0, 0, 1, 0.1);
+	border-radius: 3px;
+	outline: none;
+}
+button:hover {
+	background: #ddd;
+}
